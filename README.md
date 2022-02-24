@@ -4,7 +4,7 @@ Launch apps on android, Inspired by @GlitchYou [termux-launch](https://github
 
 ## Install
 
-> When [app installed by releases](#)
+> When [app installed by releases](https://github.com/brunodavi/termux-launch/releases)
 
 ```bash
 git clone https://github.com/brunodavi/termux-launch
