@@ -1,0 +1,6 @@
+#!/data/data/com.termux/files/usr/bin/sh
+
+pkg='com.termux.launch'
+
+export CLASSPATH=`pm path "$pkg"|cut -d: -f2`
+exec /system/bin/app_process / "$pkg.Main" $@
