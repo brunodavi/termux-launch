@@ -21,48 +21,61 @@ class Main {
   }
 
   public static void main(String[] args) {
-    for (String arg : args) {
-      switch (arg) {
-        case "--app":
-          print(arg + " " + "not implemented");
-          break;
+    String option = "";
+    String arg = "";
 
-        case "-a":
-          print(arg + " " + "not implemented");
-          break;
+    if (args.length >= 1) {
+      option = args[0];
+    } 
 
-        case "--info":
-          print(arg + " " + "not implemented");
-          break;
+    if (args.length >= 2) {
+      arg = args[1];
+    }
 
-        case "-i":
-          print(arg + " " + "not implemented");
-          break;
+    switch (option) {
+      case "--app":
+        print(option + " " + "not implemented");
+        break;
 
-        case "--package":
-          print(arg + " " + "not implemented");
-          break;
+      case "-a":
+        print(option + " " + "not implemented");
+        break;
 
-        case "-p":
-          print(arg + " " + "not implemented");
-          break;
+      case "--info":
+        print(option + " " + "not implemented");
+        break;
 
-        case "--update":
-          print(arg + " " + "not implemented");
-          break;
+      case "-i":
+        print(option + " " + "not implemented");
+        break;
 
-        case "-u":
-          print(arg + " " + "not implemented");
-          break;
+      case "--package":
+        print(option + " " + "not implemented");
+        break;
 
-        case "--help":
-          help();
-          break;
+      case "-p":
+        print(option + " " + "not implemented");
+        break;
 
-        case "-h":
-          help();
-          break;
-      }
+      case "--update":
+        print(option + " " + "not implemented");
+        break;
+
+      case "-u":
+        print(option + " " + "not implemented");
+        break;
+
+      case "--help":
+        help();
+        break;
+
+      case "-h":
+        help();
+        break;
+
+      default:
+        print(option + " " + "not exists");
+        break;
     }
   }
 
