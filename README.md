@@ -1,4 +1,4 @@
-# Termux:Launch - [ under development  ]
+# Termux:Launch
 
 Launch apps on android, Inspired by @GlitchYou [termux-launch](https://github.com/GlitchYou/termux-launch)
 
