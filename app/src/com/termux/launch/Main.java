@@ -1,24 +1,8 @@
 package com.termux.launch;
 
-class Main {
+import com.termux.launch.options.Options;
 
-  public static void print(String msg) {
-    System.out.println(msg);
-  }
-
-  public static void help() {
-    print(
-       "Usage:" 
-       + "\n" + " launch" 
-       + "\n" + "   Launch apps on android"
-       + "\n" + ""
-       + "\n" + "  -a --app     <app_name>     -- open app"
-       + "\n" + "  -i --info    <app_name>     -- open app settings"
-       + "\n" + "  -p --package <app_package>  -- open app from package"
-       + "\n" + "  -u --update                 -- load all apps"
-       + "\n" + "  -h --help                   -- show help"
-    );
-  }
+class Main extends Options {
 
   public static void main(String[] args) {
     String option = "";
