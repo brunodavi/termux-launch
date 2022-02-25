@@ -1,4 +1,4 @@
-# Termux:Launch
+# Termux:Launch - [ under development  ]
 
 Launch apps on android, Inspired by @GlitchYou [termux-launch](https://github.com/GlitchYou/termux-launch)
 
@@ -54,14 +54,19 @@ opeing play_store settings...
 
 I used [buildApk](https://github.com/BuildAPKs/buildAPKs) in termux
 
-```bash
-# in termux-launch/
-cd app
+> All actions must be performed in `termux-app/app/`
 
+```bash
+# compile termux-launch
 build.one.bash
 ```
 
 ```bash
-# open apk in termux
+# open and install apk in termux
 termux-open com.termux.launch.apk
+```
+
+```bash
+# run apk without installing
+../launch-test.sh -arg
 ```
