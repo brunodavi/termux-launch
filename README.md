@@ -43,7 +43,7 @@ staring play_store...
 ```
 
 ```bash
-# show settings google pkay store
+# show settings google play store
 $ launch -i play_store
 opeing play_store settings...
 ```
