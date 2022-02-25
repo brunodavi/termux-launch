@@ -27,6 +27,29 @@ Usage:
     -h --help                    -- show help
 ```
 
+<details>
+<summary>Examples</summary>
+
+```bash
+# load apps
+$ launch -u
+loading... apps (3/123)
+```
+
+```bash
+# start google play store
+$ launch -a play_store
+staring play_store...
+```
+
+```bash
+# show settings google pkay store
+$ launch -i play_store
+opeing play_store settings...
+```
+
+</details>
+
 ## Compile Apk
 
 I used [buildApk](https://github.com/BuildAPKs/buildAPKs) in termux
